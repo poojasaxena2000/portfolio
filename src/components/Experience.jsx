@@ -22,7 +22,11 @@ const Experience = () => {
             initial={{opacity:0, x:-100}}
             transition={{duration:1}}
             className='w-full lg:w-3/12'>
-            <p className='mb-2 text-sm text-neutral-400'>{experience.year}</p>
+           <div className='flex'>
+           <p className='mb-2 text-sm text-neutral-400 '>{experience.year}</p>
+            <span className='text-sm text-neutral-400 ml-4 '>{experience.mo}</span>
+            <span className='text-sm text-neutral-400 ml-4 '>{experience.yr}</span>
+           </div>
             </motion.div>
 
             <motion.div 
@@ -32,7 +36,7 @@ const Experience = () => {
             
             className='w-full max-w-xl lg:w-3/4'>
             <h6 className='mb-2 font-semibold'>
-                {experience.role}-<span className='text-sm text-purple-100'>{experience.company}</span>
+                {experience.role}-<span className='text-sm text-purple-100 ml-2'>{experience.company}</span>
             </h6>
             <p className='mb-4 text-neutral-400'>{experience.description}</p>
             {experience.technologies.map((tech,index) =>(

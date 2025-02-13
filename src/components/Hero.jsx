@@ -27,8 +27,8 @@ const Hero = () => {
             <motion.h1  variants={conatiner (0)}
             initial='hidden'
             animate='visible'
-             className='pb-10 text-6xl font-serif tracking-tight 
-            lg:text-8xl bg-clip-text'>Pooja Saxena</motion.h1>
+             className='mb-4 text-6xl  tracking-tight  
+            lg:text-6xl bg-clip-text'>Pooja Saxena</motion.h1>
 
             < motion.span 
             
@@ -36,7 +36,7 @@ const Hero = () => {
             initial='hidden'
             animate='visible'
             className='bg-gradient-to-r  from-pink-300 via-slate-500 to-purple-500
-            bg-clip-text text-3xl tracking-tight text-transparent '>Frontend Developer</ motion.span>
+            bg-clip-text text-4xl tracking-tight text-transparent mb-8'>Frontend Developer</ motion.span>
 
             {/* <p className='my-2 max-w-xl py-6 font-light tracking-tighter'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tenetur corrupti, illum est id distinctio, neque eaque sequi voluptate alias 
                 debitis iure maxime porro eum error laudantium cum natus suscipit.</p> */}
@@ -44,13 +44,13 @@ const Hero = () => {
                     variants={conatiner (1)}
                     initial='hidden'
                     animate='visible'
-                  className='my-2 max-w-xl py-6 font-light tracking-tighter'>{HERO_CONTENT}</ motion.p>
+                  className=' max-w-xl  font-light '>{HERO_CONTENT}</ motion.p>
 
 
         </div>
 
         </div>
-         <div className='w-full lg:w-1/2  r'>
+         <div className='w-full lg:w-1/2 '>
          <div className='flex justify-center'>
             <motion.img 
             initial={{x:100, opacity:0}}
