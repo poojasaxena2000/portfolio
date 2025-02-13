@@ -42,7 +42,7 @@ const Project = () => {
                   <h6 className='mb-2 font-semibold'>{project.title}</h6> <span>
                     
                     <a 
-                            href="https://landing-page-gray-two-37.vercel.app/" 
+                            href={project.projectLink}
                             target="_blank" 
                             rel="noopener noreferrer"
                             // style={{ color: '', fontSize: '2rem' }}

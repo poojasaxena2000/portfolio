@@ -46,6 +46,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Virtual R",
+    projectLink:'https://landing-page-gray-two-37.vercel.app/',
     image: project1,
     description:
       "The website Virtual R  is created using React and hosted on Vercel. It is a simple, responsive landing page with a clean design, likely used for showcasing a product or service, with a focus on user engagement and easy navigation.",
@@ -53,6 +54,7 @@ export const PROJECTS = [
   },
   {
     title: "developer's kitchen ",
+    projectLink:'https://dev-kitchen.vercel.app/',
     image: project2,
     description:
       "The website Dev Kitchen is built using HTML, CSS, Bootstrap, and JavaScript. It likely serves as a modern, responsive platform, showcasing content or services with a clean and user-friendly design, utilizing Bootstrap for layout and styling, along with JavaScript for interactive features.",
@@ -60,6 +62,7 @@ export const PROJECTS = [
   },
   {
     title: "Vastu Heaven",
+    projectLink:'https://vastu-heaven-xqky.vercel.app/',
     image: project3,
     description:
       "The website  Vastu Heaven is built using React and is hosted on Vercel. It provides information and services related to Vastu Shastra, helping users design spaces like homes or offices according to Vastu principles for better energy flow and harmony.",
